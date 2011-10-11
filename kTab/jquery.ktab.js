@@ -61,12 +61,8 @@
 					// Show the active tab and show the respective content
 					var tab_id = $element
 									.find('li:eq(' + plugin.o.active + ')')
-									.addClass(plugin.o.activeClass)
 									.find('a')
-									.attr('href');
-								
-					$(tab_id).show();		
-					
+									.click();				
 				});
 			}
 		};
