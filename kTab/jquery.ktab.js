@@ -86,7 +86,7 @@
 			$(tab_id).fadeIn()			// FadeIn the current tab content
 				
 			$tab	
-				.parent()
+				.closest('li')
 				.addClass(plugin.o.activeClass);		// find its parent (li) and set active class
         };
 
